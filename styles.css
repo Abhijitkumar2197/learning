@@ -1,0 +1,143 @@
+
+body{
+  margin: 0px;
+  background: linear-gradient(to bottom, rgb(72, 1, 97), rgb(39, 36, 36));
+  
+}
+
+
+::placeholder{
+  color: white;
+  font-size: large;
+  z-index: 0;
+}
+
+.top-bar{
+  display: flex;
+  align-items: center; /* Align contents vertically */
+  height: 60px; /* Set the desired height for the top bar */
+  background-color: #1d1f1f;
+  margin-left: auto;
+  position: absolute;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo{ 
+  /* position: absolute; */
+  
+  height: 50px;
+  
+
+ }
+ .inp{
+  opacity: 15%;
+  position: relative;
+  margin-top: 3%;
+  height: 70%;
+  border-left: hsl(from red h s l);
+  border-width: 2px;
+  width: 140%;
+  border-radius: 20px;
+  z-index: 1;
+  align-items: center;
+  margin-left: -10px;
+  color: white;
+  
+ }
+
+ .lef{
+  display: flex;
+  /* position: relative; */
+  margin-right: 50px;
+ }
+.medi h1{
+  padding: 0 30px;
+}
+
+ .medi{
+  display: flex;
+  /* margin-right: 50px; */
+  /* position: relative; */
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 250px;
+  margin-right: 200px;;
+  
+  /* justify-content: center; */
+ }
+
+ .corner{
+  /* position: relative; */
+  /* margin-left: 50px; */
+  display: flex;
+ }
+
+ .corner h1{
+  padding: 0 10px;
+ }
+
+
+ .frame{
+  position: relative;
+  padding-top: 60px;
+  width: 80%;
+  height: 500px;
+  padding-left: 10%;
+  padding-right: 10%;
+ }
+
+
+ .profile{
+  display: flex;
+  height: 200px;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  
+ }
+
+.dp{
+  left: 10px;
+  bottom: 50px;
+  height: 100%;
+  border-radius: 100%;
+  position: relative;
+  border: 5px solid white; 
+
+  z-index: 1;
+
+}
+
+.details{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  color: white;
+  
+}
+
+.butt{
+  position: relative;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  height: 40px;
+  color: white;
+  bottom: 20px;
+
+}
+
+.butt button{
+  border-radius: 10px;
+  border-width: 0px;
+  width: 100px;
+  text-align: center;
+  color: purple;
+  font-size: medium;
+  
+}
+
+/* .opac {
+  background: rgba(50, 1, 68, 0.5);
+} */
